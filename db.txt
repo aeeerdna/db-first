@@ -1,0 +1,24 @@
+AUTO USATE CONCESSIONARIO
+
+- id : intero - MEDIUMINT - PRIMARY-KEY- AUTOINCREMENT - UNIQUE - NOT-NULL
+- tipologia_auto : stringa - VARCHAR (20) - NULL
+- marca_auto : stringa - VARCHAR (20) - NOT-NULL
+- modello_auto : stringa - VARCHAR (50) - NOT-NULL 
+- fascia_prezzo : intero - MEDIUMINT - NOT-NULL
+- chilometraggio_auto : intero - MEDIUMINT - NOT-NULL
+- anno_immatricolazione : data - YEAR - NOT-NULL
+- descrizione_auto : stringa - TEXT -NULL
+
+
+
+
+DESCRIZIONE AUTO USATE
+
+- alimentazione_auto : stringa - VARCHAR (15) - NULL
+- tipologia_cambio : stringa - VARCHAR (10) - NULL
+- potenza_auto : stringa - VARCHAR (5) - NULL
+- numero_posti : intero - TINYINT - NULL
+- numero_portere : intero - TINYINT - NULL
+- dotazioni : stringa - VARCHAR (50) - NULL
+- colore: stringa - VARCHAR (15) - NULL
+- emissioni: stringa - VARCHAR (10) - NULL
